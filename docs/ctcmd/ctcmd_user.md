@@ -58,7 +58,8 @@ ctcmd 支持如下命令：
 
 #### 2.2.2.1 下载软件包管理器
 
-请在[repo](https://github.com/xingguangcuican6666/ctcmd_repo/tree/main/module)中下载最新的module包，解压至ctcmd目录下。
+请在[repo](https://github.com/xingguangcuican6666/ctcmd_repo/tree/main/module)中下载最新的**module-full**包，解压至ctcmd目录下。
+注意：未加full后缀的为OTA包，并不完整。
 
 文件结构如下：
 
