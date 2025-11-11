@@ -27,8 +27,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'OracleLoadStar', // Usually your GitHub org/user name.
+  projectName: 'sce_docs', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -94,7 +94,7 @@ const config = {
             label: 'Docs',
           },
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/OracleLoadstar/sce_docs',
             label: 'GitHub',
             position: 'right',
           },
@@ -141,12 +141,12 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/xingguangcuican6666/sce_docs',
+                href: 'https://github.com/OracleLoadstar/sce_docs',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} OLS, Inc. Built with Docusaurus. 粤ICP备2025482222号-1`,
       },
       prism: {
         theme: prismThemes.github,
