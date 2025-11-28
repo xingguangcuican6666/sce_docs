@@ -7,6 +7,7 @@ export default function HtmlHead() {
 
   return (
     <Head>
+      <meta httpEquiv="Content-Security-Policy" content="upgrade-insecure-requests" />
       <script
         type="text/javascript"
         dangerouslySetInnerHTML={{

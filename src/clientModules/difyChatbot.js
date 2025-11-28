@@ -1,7 +1,7 @@
 // 设置 Dify 聊天机器人配置
 window.difyChatbotConfig = {
   token: 'I4xmdhCOsfJ3jMiC',
-  baseUrl: 'http://dify.oraclestar.cn',
+  baseUrl: 'https://dify.oraclestar.cn',
   inputs: {},
   systemVariables: {},
   userVariables: {},
@@ -9,7 +9,7 @@ window.difyChatbotConfig = {
 
 // 创建并添加脚本
 const script = document.createElement('script');
-script.src = 'http://dify.oraclestar.cn/embed.min.js';
+script.src = 'https://dify.oraclestar.cn/embed.min.js';
 script.id = 'I4xmdhCOsfJ3jMiC';
 script.defer = true;
 document.body.appendChild(script);
