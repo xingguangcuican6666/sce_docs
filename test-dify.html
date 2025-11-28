@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dify 聊天机器人测试</title>
+</head>
+<body>
+    <h1>Dify 聊天机器人测试页面</h1>
+    <p>这个页面用于测试 Dify 聊天机器人是否正常工作。</p>
+
+    <script>
+        window.difyChatbotConfig = {
+            token: 'I4xmdhCOsfJ3jMiC',
+            baseUrl: 'http://dify.oraclestar.cn',
+            inputs: {},
+            systemVariables: {},
+            userVariables: {},
+        };
+    </script>
+    <script
+        src="http://dify.oraclestar.cn/embed.min.js"
+        id="I4xmdhCOsfJ3jMiC"
+        defer>
+    </script>
+    <style>
+        #dify-chatbot-bubble-button {
+            background-color: #1C64F2 !important;
+        }
+        #dify-chatbot-bubble-window {
+            width: 24rem !important;
+            height: 40rem !important;
+        }
+    </style>
+</body>
+</html>

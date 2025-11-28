@@ -1,0 +1,27 @@
+window.difyChatbotConfig = {
+    token: 'I4xmdhCOsfJ3jMiC',
+    baseUrl: 'http://dify.oraclestar.cn',
+    inputs: {},
+    systemVariables: {},
+    userVariables: {},
+};
+
+(function() {
+    const script = document.createElement('script');
+    script.src = 'http://dify.oraclestar.cn/embed.min.js';
+    script.id = 'I4xmdhCOsfJ3jMiC';
+    script.defer = true;
+    document.head.appendChild(script);
+    
+    const style = document.createElement('style');
+    style.textContent = `
+        #dify-chatbot-bubble-button {
+            background-color: #1C64F2 !important;
+        }
+        #dify-chatbot-bubble-window {
+            width: 24rem !important;
+            height: 40rem !important;
+        }
+    `;
+    document.head.appendChild(style);
+})();
