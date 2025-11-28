@@ -152,7 +152,12 @@ const config = {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
       },
+      
     }),
+  
+  scripts: [
+    '/js/dify-chatbot.js',
+  ],
 };
 
 export default config;
