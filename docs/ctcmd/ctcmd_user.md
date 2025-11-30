@@ -59,7 +59,9 @@ ctcmd 支持如下命令：
 #### 2.2.2.1 下载软件包管理器
 
 请在[repo](https://github.com/xingguangcuican6666/ctcmd_repo/tree/main/module)中下载最新的**module-full**包，解压至ctcmd目录下。
+:::tip
 注意：未加full后缀的为OTA包，并不完整。
+:::
 
 文件结构如下：
 
@@ -94,6 +96,10 @@ module.winpt(update)
 ~~~cpp
 module.winpt(install,module)
 ~~~
+
+:::warning
+软件包管理器的full包已不再更新，请严格按照这些步骤将旧full包更新至最新的版本。
+:::
 
 #### 2.2.2.3 修补其他官方软件包（可选）
 

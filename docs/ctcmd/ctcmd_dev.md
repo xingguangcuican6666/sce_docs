@@ -3,6 +3,9 @@ sidebar_position: 2
 ---
 
 # CTCMD 开发者手册
+:::warning
+此页面已过时，部分内容可能不再适用，我们将很快更新
+:::
 
 欢迎使用CTCMD，本手册面向开发者，并为咖啡桌提供帮助，你可以在这里找到一些关于开发，编译方面的帮助！
 
@@ -18,10 +21,15 @@ git clone https://github.com/xingguangcuican6666/custom_command
 ~~~
 
 安装**vs2022 build tools**，选择**C++桌面开发**工作负载，在**Developer Command Prompt for VS 2022**中运行以下命令。
-注意：请在Windows环境下编译，Linux无法编译该项目，即使成功也无法在Linux上使用！
+
+
 ~~~bash
 .\build.bat
 ~~~
+
+:::tip
+注意：请在Windows环境下编译，或者使用mingw编译器，因为ctcmd使用了一些Windows特有的API。
+:::
 
 接着打开`temp`文件夹，`main.cpp`就是ctcmd。
 
