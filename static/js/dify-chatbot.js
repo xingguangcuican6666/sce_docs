@@ -21,6 +21,11 @@ window.difyChatbotConfig = {
         #dify-chatbot-bubble-window {
             width: 24rem !important;
             height: 40rem !important;
+            position: fixed !important;
+            bottom: 80px !important;
+            right: 20px !important;
+            max-height: 70vh !important;
+            overflow-y: auto !important;
         }
     `;
     document.head.appendChild(style);
